@@ -2,7 +2,9 @@
 title: "HelloWorldTest"
 author: "Adrian"
 date: "2023-01-02"
-output: html_document
+output: 
+  html_document: 
+    keep_md: yes
 ---
 
 ```{r setup, include=FALSE}
@@ -31,3 +33,6 @@ Note that the `echo = FALSE` parameter was added to the code chunk to prevent pr
 
 usethis::use_github()
 #test
+
+github_document()
+
